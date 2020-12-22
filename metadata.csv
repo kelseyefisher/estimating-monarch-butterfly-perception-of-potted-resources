@@ -1,0 +1,139 @@
+Data File,Description of Data File,
+17&18_wilddirectflight.csv,Observations of non-experimental monarchs performing direct flight to potted resources,
+1718_dud.csv,responsive and unresponsive experimental monarch butterflies,
+1718_locations&flytime,duration of stationary at locations and flying time between stationary locations,
+1718_locationsonly.csv, locations along flight paths and stationary locations,
+1718_locationsonly_firstlast.csv, release location and last location for each individual used to calculate effective distance and effecting bearing,
+1718_locationsonly_firststep.csv,release location and second location for each individual used to calculate effective distance and effecting bearing of the first step,
+1718_locationsonly_forflightsteps.csv,"only stationary locations, removing any locations that were collected while the monarch was flying along flight paths; used to calculate flight steps",
+1718_orientland,"porportion of monarchs to take a step, have effective movement toward or land on the potted resources at each release distance",
+1718_releasetoresourceentroid_gme,bearing from the release to the centroid of the resources,
+1718_trialsummary_1to5dayscaptive_10mph.csv,summary information for each monarch butterfly tested,
+,,
+Data File,Column Name,Description
+1718_trialsummary_1to5dayscaptive_10mph.csv,altresource,alternative resource (other than our potted resources) that experimental monarch found
+1718_dud.csv,attachment,"sham-tag = battery attached, untag = no attachment, tag = radio-tagged"
+1718_trialsummary_1to5dayscaptive_10mph.csv,attachment,"sham-tag = battery attached, untag = no attachment, tag = radio-tagged"
+1718_locationsonly.csv,bearing,bearing of steplength
+1718_locationsonly_firstlast.csv,bearing,bearing from release to capture
+1718_locationsonly_forflightsteps.csv,bearing,bearing of each flight step
+1718_locations&flytime,behaviorclassification,"release, fly, rest"
+1718_locationsonly.csv,behaviorclassification,"release, fly, rest"
+1718_locationsonly_firstlast.csv,BehaviorClassification,"release, fly, rest"
+1718_locationsonly_firststep.csv,behaviorclassification,"release, fly, rest"
+1718_locationsonly_forflightsteps.csv,behaviorclassification,"release, fly, rest"
+1718_trialsummary_1to5dayscaptive_10mph.csv,cloud,"clear, mostly clear, cloudy, mostly cloudy"
+1718_trialsummary_1to5dayscaptive_10mph.csv,cloud2,"clear=1, mostly clear=3, cloudy=2, mostly cloudy=1"
+1718_trialsummary_1to5dayscaptive_10mph.csv,cover,cover/protection that monarch found during observation
+17&18_wilddirectflight.csv,date,date of observation
+1718_locationsonly.csv,date,date of observation
+1718_locationsonly_firstlast.csv,Date,date of observation
+1718_locationsonly_firststep.csv,date,date of observation
+1718_locationsonly_forflightsteps.csv,date,date of observation
+1718_locationsonly.csv,datetime,only used to make gme path.metrics function
+1718_locationsonly_firstlast.csv,DateTime,only used to make gme path.metrics function
+1718_locationsonly_firststep.csv,datetime,only used to make gme path.metrics function
+1718_locationsonly_forflightsteps.csv,datetime,only used to make gme path.metrics function
+1718_trialsummary_1to5dayscaptive_10mph.csv,dayscaptive,number of days held in captivity
+17&18_wilddirectflight.csv,direct flight (m),distance from first observation of direct flight to potted resources
+1718_orientland,distance,release distance
+1718_trialsummary_1to5dayscaptive_10mph.csv,distance,release distance
+1718_trialsummary_1to5dayscaptive_10mph.csv,dudtime,time observed before deciding the monarch was unresponsive
+1718_locations&flytime,duration,hh:mm:ss
+1718_locationsonly.csv,duration,hh:mm:ss
+1718_locationsonly_firstlast.csv,Duration,hh:mm:ss
+1718_locationsonly_firststep.csv,duration,hh:mm:ss
+1718_locationsonly_forflightsteps.csv,duration,hh:mm:ss
+1718_orientland,effective,proportion of monarchs with effective bearing toward resources
+1718_trialsummary_1to5dayscaptive_10mph.csv,endtime,time at end of observation
+1718_trialsummary_1to5dayscaptive_10mph.csv,euclidianbearing,effective bearing from release to capture
+1718_trialsummary_1to5dayscaptive_10mph.csv,euclidiandistance,effective distance from release to capture
+1718_trialsummary_1to5dayscaptive_10mph.csv,experiment,perception testing
+1718_trialsummary_1to5dayscaptive_10mph.csv,firstbearing,bearing of first step
+1718_trialsummary_1to5dayscaptive_10mph.csv,firstlandon,first surface to land on 
+1718_trialsummary_1to5dayscaptive_10mph.csv,firststep,distance of first step
+1718_trialsummary_1to5dayscaptive_10mph.csv,fly,responsive (yes) or unresponsive (no)
+1718_trialsummary_1to5dayscaptive_10mph.csv,foundalt,did the monarch find an alternative resource
+1718_trialsummary_1to5dayscaptive_10mph.csv,foundcover,did the monarch find cover
+1718_trialsummary_1to5dayscaptive_10mph.csv,foundresources,did the monarch find our potted resources
+1718_orientland,land,proportion of monarchs to land on resources
+1718_trialsummary_1to5dayscaptive_10mph.csv,landcoverclass,monarch was released in land cover classification
+1718_locations&flytime,landcoverclassification,"stationary location is located within sod, roadside, cropfield, riparian, edge, or pasture"
+1718_locationsonly.csv,landcoverclassification,"stationary location is located within sod, roadside, cropfield, riparian, edge, or pasture"
+1718_locationsonly_firstlast.csv,LandcoverClassification,"stationary location is located within sod, roadside, cropfield, riparian, edge, or pasture"
+1718_locationsonly_firststep.csv,landcoverclassification,"stationary location is located within sod, roadside, cropfield, riparian, edge, or pasture"
+1718_locationsonly_forflightsteps.csv,landcoverclassification,"stationary location is located within sod, roadside, cropfield, riparian, edge, or pasture"
+1718_locations&flytime,locatione,UTM easting
+1718_locationsonly.csv,locatione,UTM easting
+1718_locationsonly_firstlast.csv,LocationE,UTM easting
+1718_locationsonly_firststep.csv,locatione,UTM easting
+1718_locationsonly_forflightsteps.csv,locatione,UTM easting
+1718_locationsonly_firstlast.csv,LocationID,"unique id for experimental monarchs two digit year, three digit id number, letter run id, two digit location id in sequential order"
+1718_locations&flytime,locationn,UTM northing
+1718_locationsonly.csv,locationn,UTM northing
+1718_locationsonly_firstlast.csv,LocationN,UTM northing
+1718_locationsonly_firststep.csv,locationn,UTM northing
+1718_locationsonly_forflightsteps.csv,locationn,UTM northing
+17&18_wilddirectflight.csv,m/f,male or female monarch if known
+1718_trialsummary_1to5dayscaptive_10mph.csv,monarchcatchdate,date the monarch was initially caught
+1718_trialsummary_1to5dayscaptive_10mph.csv,monarchcatchsite,location where monarch was initially caught
+1718_locationsonly_firstlast.csv,MonarchID,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_trialsummary_1to5dayscaptive_10mph.csv,monarchid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_locations&flytime,monarchlocationid,"unique id for experimental monarchs two digit year, three digit id number, letter run id, two digit location id in sequential order"
+1718_locationsonly.csv,monarchlocationid,"unique id for experimental monarchs two digit year, three digit id number, letter run id, two digit location id in sequential order"
+1718_locationsonly_firststep.csv,monarchlocationid,"unique id for experimental monarchs two digit year, three digit id number, letter run id, two digit location id in sequential order"
+1718_locationsonly_forflightsteps.csv,monarchlocationid,"unique id for experimental monarchs two digit year, three digit id number, letter run id, two digit location id in sequential order"
+1718_trialsummary_1to5dayscaptive_10mph.csv,monarchmass,mass of monarch after being frozen 
+1718_dud.csv,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_locations&flytime,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_locationsonly.csv,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_locationsonly_firststep.csv,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_locationsonly_forflightsteps.csv,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_releasetoresourceentroid_gme,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_trialsummary_1to5dayscaptive_10mph.csv,monarchrunid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_trialsummary_1to5dayscaptive_10mph.csv,numpoints,number of georeferenced points
+1718_locationsonly.csv,order,sequential order within one individual
+1718_locationsonly_firstlast.csv,Order,sequential order within one individual
+1718_locationsonly_firststep.csv,order,sequential order within one individual
+1718_locationsonly_forflightsteps.csv,order,sequential order within one individual
+1718_dud.csv,outcome,dud = unresponsive; fly = responsive
+1718_trialsummary_1to5dayscaptive_10mph.csv,releaseE,UTM easting of release
+1718_trialsummary_1to5dayscaptive_10mph.csv,releaseN,UTM northing of release
+1718_trialsummary_1to5dayscaptive_10mph.csv,releaseplant,release plant species
+1718_releasetoresourceentroid_gme,resourcebearing,bearing from release to centroid of the resources
+1718_trialsummary_1to5dayscaptive_10mph.csv,resourcecentroidE,UTM easting of resource centroid
+1718_trialsummary_1to5dayscaptive_10mph.csv,resourcecentroidN,UTM northing of resource centroid
+1718_trialsummary_1to5dayscaptive_10mph.csv,resources,resource plant species and abundance
+1718_trialsummary_1to5dayscaptive_10mph.csv,runid,"unique id for experimental monarchs two digit year, three digit id number, letter run id"
+1718_trialsummary_1to5dayscaptive_10mph.csv,samecatchtrial,was monarch caught at the same site where the trial occurred
+1718_trialsummary_1to5dayscaptive_10mph.csv,secobserved,seconds of observation
+17&18_wilddirectflight.csv,site,"field site: BGE = Blue Grass Enterprises in Linn County IA, Stensland = Stensland Sod in Dallas County IA"
+1718_trialsummary_1to5dayscaptive_10mph.csv,starttime,time at start of observation 
+1718_locationsonly.csv,steplength,distance between two sequential stationary locations
+1718_locationsonly_firstlast.csv,steplength,distance between two sequential stationary locations
+1718_locationsonly_firststep.csv,steplength,distance between two sequential stationary locations
+1718_locationsonly_forflightsteps.csv,steplength,distance between two sequential stationary locations
+1718_orientland,steps,proportion of steps toward resources
+1718_locations&flytime,surface,air when flying or surface where stationary behavior occurred
+1718_locationsonly.csv,surface, surface where stationary behavior occurred
+1718_locationsonly_firstlast.csv,Surface, surface where stationary behavior occurred
+1718_locationsonly_firststep.csv,surface, surface where stationary behavior occurred
+1718_locationsonly_forflightsteps.csv,surface, surface where stationary behavior occurred
+1718_trialsummary_1to5dayscaptive_10mph.csv,temp,degrees F
+1718_locationsonly.csv,time,time of observation
+1718_locationsonly_firstlast.csv,Time,time of observation
+1718_locationsonly_firststep.csv,time,time of observation
+1718_locationsonly_forflightsteps.csv,time,time of observation
+1718_trialsummary_1to5dayscaptive_10mph.csv,transmitterid,transmitter identification
+1718_trialsummary_1to5dayscaptive_10mph.csv,trialdate,date of observation
+1718_trialsummary_1to5dayscaptive_10mph.csv,trialsite,site of observation 
+1718_locationsonly.csv,turnangle,angle created from three sequential stationary points
+1718_locationsonly.csv,uniqueid,"unique id for all locations and all individuals, no two have the same unique id"
+1718_locationsonly_firstlast.csv,UniqueID,"unique id for all locations and all individuals, no two have the same unique id"
+1718_locationsonly_firststep.csv,uniqueid,"unique id for all locations and all individuals, no two have the same unique id"
+1718_locationsonly_forflightsteps.csv,uniqueid,"unique id for all locations and all individuals, no two have the same unique id"
+1718_trialsummary_1to5dayscaptive_10mph.csv,winddirection,direction wind is blowing (ie. blowing to the east)
+1718_trialsummary_1to5dayscaptive_10mph.csv,windkph,wind speed in kph
+1718_trialsummary_1to5dayscaptive_10mph.csv,windspeed,wind speed in mph
+17&18_wilddirectflight.csv,year,year of observation; either 2017 or 2018
+1718_trialsummary_1to5dayscaptive_10mph.csv,year,year of observation; either 2017 or 2019
